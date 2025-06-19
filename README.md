@@ -12,12 +12,10 @@ Explore distributions and relationships among variables
 
 Conduct univariate, bivariate, and multivariate analyses
 
-Test hypotheses related to BMI and other health indicators
+## Dataset
+### Source: NHANES 2013-2014 (available on Kaggle)
 
-Dataset
-Source: NHANES 2013-2014 (available on Kaggle)
-
-Key variables analyzed include:
+### Key variables analyzed include:
 
 Demographic: gender, age, education, smoking status
 
@@ -25,7 +23,7 @@ Physical measurements: weight, height, BMI
 
 Additional health indicators as available
 
-Key Steps
+## Key Steps
 Data Loading
 Load demographic, examination, and questionnaire CSV files.
 
@@ -49,26 +47,13 @@ Univariate analysis: distribution of age, BMI, weight, height, smoking, and educ
 
 Bivariate analysis: correlation and visualization of BMI with age, gender, and smoking
 
-Multivariate analysis: heatmap of correlations and grouping by gender and age bins
-
-Hypothesis Testing
-
 Test BMI differences by age groups and gender
 
 Evaluate smoking prevalence across demographic groups
 
-Libraries Used
+## Libraries Used
 pandas, numpy — data manipulation
 
 matplotlib, seaborn — visualization
 
-scipy, statsmodels — statistical testing
-
-Results Summary
-Height data showed a normal distribution; weight and BMI were slightly right-skewed.
-
-Weight positively correlates with BMI, with gender differences observed in height and weight distributions.
-
-Smoking status showed minimal impact on weight, height, and BMI distributions.
-
-Hypothesis tests suggested no significant obesity in females aged 40-50.
+statsmodels — statistical testing
