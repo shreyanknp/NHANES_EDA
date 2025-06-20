@@ -1,4 +1,4 @@
-# NHANES Exploratory Data Analysis (EDA)
+# National Health Aand Nutrition Examination Survey - Exploratory Data Analysis (EDA)
 This project performs a detailed exploratory data analysis on the NHANES (National Health and Nutrition Examination Survey) 2013-2014 dataset to explore health-related variables, focusing on BMI and its relationship with other factors such as age, gender, smoking, and education.
 
 ## Overview
